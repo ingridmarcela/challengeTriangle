@@ -4,6 +4,7 @@ def check_triangle(sides):
     a = sides[0]
     b = sides[1]
     c = sides[2]
+    print_sides_of_triangule(a,b,c)
     if((a+b)>c) and (b<(a+c)):
 #2 lados deben ser mayores al tercero   if(a>0) and (b>0) and (c>0):
         print("It is a triangle.")
@@ -18,6 +19,10 @@ def get_type_triangle(a,b,c):
         print("Triangule is isosceles.")
     else:
         print("Triangule is scalene.")
+def print_sides_of_triangule(a,b,c):
+    print(a)
+    print(b)
+    print(c)
 
 def main():
     sides = [5,2,5]
